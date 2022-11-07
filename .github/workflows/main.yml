@@ -10,7 +10,7 @@ branches:
 jobs:
 build:
 
-runs-on: windows
+runs-on: ubuntu-latest
 
 steps:
 - name: 'Testing Githup action'  
