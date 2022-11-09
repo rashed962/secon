@@ -1,17 +1,16 @@
-on:
-push:
-branches:
-     - master
+ on:
+   push:
+      branches:
+       - master
 jobs:
-build:
+  build:
+    runs-on: ubuntu-latest
 
-runs-on: ubuntu-latest
-
-steps:
-- name: 'Testing Githup action'  
-run: pwd
-- name: 'Testing printing' 
-  run: echo Rashed
+    steps:
+      - name: 'Testing Githup action'  
+        run: pwd
+      - name: 'Testing printing' 
+        run: echo rashed
 
 
 
