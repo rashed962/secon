@@ -7,10 +7,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'Testing Githup action'  
-        run: pwd
-      - name: 'Testing printing' 
-        run: echo rashed
-
-
-
+      - name: 'Printing folder contents'  
+        run: ls
